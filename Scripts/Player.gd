@@ -11,7 +11,7 @@ var input = Vector2.ZERO
 func _physics_process(delta):
 	player_motion(delta)
 	
-func get_input():	
+func get_input():
 	input = Input.get_vector("ui_left","ui_right","ui_up","ui_down")
 	return input.normalized()
 
